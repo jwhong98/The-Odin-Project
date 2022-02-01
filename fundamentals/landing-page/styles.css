@@ -1,0 +1,153 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav  {
+    width: 100%;
+    background-color: #1F2937;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    width: 70%;
+    color: #fff;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #1F2937;
+    color: #fff;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #f9faf8
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #e5e7eb
+}
+
+.content-container {
+    display: flex;
+    width: 70%;
+    gap: 30px;
+}
+
+.text-wrap {
+    flex: 1;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.img-wrap {
+    flex: 1;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    padding: .5rem 1.5rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.information {
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.images {
+    width: 60%;
+    gap: 40px;
+    margin-top: 2rem;
+}
+
+img {
+    border-radius: 15px;
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 100%;
+}
+
+.image {
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    padding: 5rem 20rem;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.speaker {
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 5rem 0;
+    padding: 2rem 5rem;
+    border-radius: 5px;
+}
+
+.call-to-action button {
+    border: 2px solid #fff;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #fff;
+    padding: 2rem 0;
+}
